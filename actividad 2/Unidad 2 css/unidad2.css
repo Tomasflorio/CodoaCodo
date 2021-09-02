@@ -1,0 +1,19 @@
+.negro{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 320px;
+    height: 320px;
+    margin: 1px;
+    float: left;
+}
+.rojo{
+    display: flex;
+    background-color: red;
+    color: yellow;
+    width: 320px;
+    height: 320px;
+    margin: 1px;
+    float: left;
+
+}
