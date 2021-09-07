@@ -1,0 +1,68 @@
+#insignia{
+    color: blueviolet;
+}
+#flecha{
+    color: red;
+    animation: flecha;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+    position: absolute;
+    left: 250px;
+}
+@keyframes flecha{
+    from{color: red; top: 50px;}
+    to{color: blue; top: 250px;}
+}
+.cuadros{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+#uno, #tres{
+    background-color: black;
+    color: white;
+    position: relative;
+    animation-name: mover;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes mover{
+    25%{top: 200px;}
+    50%{left: 220px;}
+    75%{top: 0px;}
+    100%{left: 20px;}
+}
+#dos, #cuatro{
+    position: relative;
+    animation-name: mover, flecha;
+    animation-duration: 5s, 6s;
+    animation-iteration-count: infinite, infinite;
+
+}
+ul li{
+    display: inline;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+ul li:hover{
+    animation-name: menu;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes menu{
+    100%{
+        padding: 15px;
+        background-color: rgba(137, 43, 226, 0.342);
+        color: black;
+        box-shadow: 5px 5px 5px black;
+        border-radius: 50px;
+    }
+}
+

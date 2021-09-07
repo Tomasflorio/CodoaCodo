@@ -1,0 +1,8 @@
+Servidor FTP ftp.foxit.com.ar
+
+Nombre de usuario de FTP c2160@cursophp.foxit.com.ar
+
+
+pass 7q-wK2=zEa1F
+
+Puerto FTPS explícito de FTP &  21
