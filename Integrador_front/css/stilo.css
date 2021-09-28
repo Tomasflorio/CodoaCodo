@@ -1,0 +1,39 @@
+body{
+}
+
+
+.navbar-brand img{
+    height: 75px;
+    width: 110px;
+}
+
+
+
+
+
+
+
+#titulos{
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+footer{
+    color: white;
+    background-color: rgb(30, 68, 91);
+    width: 100%;
+    padding: 50px 0px;
+}
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+.box__footer a{
+    text-decoration: none;
+    color: white;
+}
