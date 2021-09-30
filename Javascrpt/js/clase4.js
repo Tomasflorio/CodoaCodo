@@ -46,7 +46,7 @@ window.addEventListener('load',function(){
           `;
       }else{
           elemento.innerHTML+=
-           ` <div id="msg" class="alert alert-danger text-center w-75 mt-5" role="alert">
+           ` <div style="visivility" id="msg" class="alert alert-danger text-center w-75 mt-5" role="alert">
            Uduario y contraseña erroneos
          </div>`
       }
