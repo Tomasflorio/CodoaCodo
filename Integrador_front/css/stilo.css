@@ -1,25 +1,16 @@
-body{
+.navbar{
+    padding-left: 50px;
+    padding-right: 50px;
 }
-
-
 .navbar-brand img{
     height: 75px;
     width: 110px;
 }
 
-
-
-
-
-
-
 #titulos{
     text-align: center;
     padding: 5px;
 }
-
-
-
 footer{
     color: white;
     background-color: rgb(30, 68, 91);

@@ -14,28 +14,31 @@
 <body>
   <!--Inicio nav bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
-      <img src="./img/codoacodo.png" alt="#">
-    </a>
-    <a class="navbar-brand" href="#">Conf Bs As</a>
-    <ul class="nav navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
-      </li>
-      <!-- Falta mover a la derecha-->
-      <li class="nav-item">
-        <a class="nav-link" href="#">Los oradores</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">El lugar y la fecha</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Conviértete en orador</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" style="color:green" href="#">Comprar tickets</a>
-      </li>
-    </ul>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/codoacodo.png" alt="#">
+      </a>
+      <a class="navbar-brand" href="#">Conf Bs As</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Los oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">El lugar y la fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Conviértete en orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:rgb(39, 156, 66)" href="#">Comprar tickets</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
   <!--Fin Navbar-->
   <!--Inicio card con texto overlay-->
@@ -57,11 +60,11 @@
                 esperamos!</p>
               <div class="row">
                 <div class="col">
-                <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+                  <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
                 </div>
                 <div class="col">
-                <button type="button" class="btn btn-success">Comprar tickets</button>
-              </div>
+                  <button type="button" class="btn btn-success">Comprar tickets</button>
+                </div>
               </div>
             </div>
           </div>
@@ -179,7 +182,7 @@
           <a href="#">Prensa</a>
         </div>
         <div class="box__footer">
-          <a href="#">conferencias</a>
+          <a href="#">Conferencias</a>
         </div>
         <div class="box__footer">
           <a href="#">Términos y condiciones</a>
