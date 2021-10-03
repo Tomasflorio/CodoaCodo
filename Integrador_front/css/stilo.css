@@ -6,9 +6,20 @@
     height: 75px;
     width: 110px;
 }
+#imagenprim{
+    filter: brightness(50%);
+    
+}
+
+#titulotop{
+    font-size: small;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
 #titulos{
     text-align: center;
-    padding: 5px;
+    padding: 0px;
 }
 footer{
     color: white;
