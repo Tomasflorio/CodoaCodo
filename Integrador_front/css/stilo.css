@@ -10,23 +10,30 @@
     filter: brightness(50%);
     
 }
+
 .card-img-overlay{
+    margin-top: 400px;
     margin-right: 100px;
+    margin-left: 800px;
 }
 .card-img-overlay h5{
     text-align: end;
-    padding-left: 800px;
-    padding-top: 300px;
+    font-size: x-large;
 }
 .card-img-overlay p{
-    font-size: larger;
+    
     text-align: end;
-    margin-left: 60%;
-
 }
-.card-img-overlay .btn{
+.card-img-overlay button{
     text-align: end;
     display: inline;
+    margin-left: 650px;
+}
+.card-img-overlay #boton2{
+    text-align: end;
+    display: inline;
+    margin-left: 0px;
+    background-color: rgb(39, 168, 68);
 }
 #titulotop{
     font-size: small;
