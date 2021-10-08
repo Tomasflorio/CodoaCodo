@@ -10,7 +10,24 @@
     filter: brightness(50%);
     
 }
+.card-img-overlay{
+    margin-right: 100px;
+}
+.card-img-overlay h5{
+    text-align: end;
+    padding-left: 800px;
+    padding-top: 300px;
+}
+.card-img-overlay p{
+    font-size: larger;
+    text-align: end;
+    margin-left: 60%;
 
+}
+.card-img-overlay .btn{
+    text-align: end;
+    display: inline;
+}
 #titulotop{
     font-size: small;
     text-align: center;
