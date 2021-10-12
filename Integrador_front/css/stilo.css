@@ -62,3 +62,9 @@ footer{
     text-decoration: none;
     color: white;
 }
+.btn-codo{
+    background: #97c93e;
+    color: white;
+    width: 98%;
+    margin: 2px;
+}
