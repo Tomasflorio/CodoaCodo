@@ -1,4 +1,8 @@
+body {
+    padding-right: 2.7px;
+  }
 .navbar{
+    background-color:rgb(53, 58, 64);
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -27,12 +31,11 @@
 .card-img-overlay button{
     text-align: end;
     display: inline;
-    margin-left: 650px;
 }
 .card-img-overlay #boton2{
     text-align: end;
     display: inline;
-    margin-left: 0px;
+    margin-left: 0px !important;
     background-color: rgb(39, 168, 68);
 }
 #titulotop{
@@ -45,7 +48,21 @@
     text-align: center;
     padding: 0px;
 }
+.targ{
+    margin-bottom: 25px;
+}
+.textplaya{
+    background-color:rgb(53, 58, 64);
+    color: white;
+}
+.playa {
+    margin-right: 1px;
+    padding-right: 0px;
+    width: 50%;
+}
 footer{
+
+    bottom: 0px !important;
     color: white;
     background-color: rgb(30, 68, 91);
     width: 100%;
