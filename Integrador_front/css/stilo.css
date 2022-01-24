@@ -1,0 +1,87 @@
+body {
+    padding-right: 2.7px;
+  }
+.navbar{
+    background-color:rgb(53, 58, 64);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.navbar-brand img{
+    height: 75px;
+    width: 110px;
+}
+#imagenprim{
+    filter: brightness(50%);
+    
+}
+
+.card-img-overlay{
+    margin-top: 400px;
+    margin-right: 100px;
+    margin-left: 800px;
+}
+.card-img-overlay h5{
+    text-align: end;
+    font-size: x-large;
+}
+.card-img-overlay p{
+    
+    text-align: end;
+}
+.card-img-overlay button{
+    text-align: end;
+    display: inline;
+}
+.card-img-overlay #boton2{
+    text-align: end;
+    display: inline;
+    margin-left: 0px !important;
+    background-color: rgb(39, 168, 68);
+}
+#titulotop{
+    font-size: small;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+#titulos{
+    text-align: center;
+    padding: 0px;
+}
+.targ{
+    margin-bottom: 25px;
+}
+.textplaya{
+    background-color:rgb(53, 58, 64);
+    color: white;
+}
+.playa {
+    margin-right: 1px;
+    padding-right: 0px;
+    width: 50%;
+}
+footer{
+
+    bottom: 0px !important;
+    color: white;
+    background-color: rgb(30, 68, 91);
+    width: 100%;
+    padding: 50px 0px;
+}
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+.box__footer a{
+    text-decoration: none;
+    color: white;
+}
+.btn-codo{
+    background: #97c93e;
+    color: white;
+    width: 98%;
+    margin: 2px;
+}

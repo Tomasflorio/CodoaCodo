@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #container{
+            width: 200px;
+            height: 200px;
+            background: green;
+            position: relative;
+        }
+        #box{
+            width: 50px;
+            height: 50px;
+            background: red;
+            position: absolute;
+        }
+    </style>
+    <div id="container">
+        <div id="box"></div>
+    </div>
+    <button onclick="show()">Click me</button>
+    <div>
+        <button onclick="prev()">prev</button>
+        <img id="slider" src="http://www.sololearn.com/uploads/slider/1.jpg" width="200px" height="100px">
+        <button onclick="next()">next</button>
+    </div>
+
+    <form onsubmit="return validate()" method="post">
+        Number: <input type="text" name="num1" id="num1" />
+        <br />
+        Repeat: <input type="text" name="num2" id="num2" />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+      
+    <script src="./app2.js">
+    </script>
+</body>
+</html>
