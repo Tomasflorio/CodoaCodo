@@ -51,3 +51,35 @@ function validate() {
     alert("tienen que ser igual")
     return false
 }
+
+// ECMAScript 6
+function varTest(){
+    var x = 1 
+    if(true){
+        var x = 2 // same variable
+        console.log(x)//2
+    }
+    console.log(x)//2
+}
+function letTest(){
+    let x = 1 
+    if(true){
+        let x = 2 // diferent variable
+        console.log(x) // 2
+    }
+    console.log(x) //1
+}
+
+// el let es comunmente usado en el for
+for(let i = 0;i<3;i++){
+    document.write(i)
+}
+// formas de mostrar en pantalla
+const name2 = 'juan'
+var msg = `hola ${name2}!`;
+console.log(msg)
+
+// definiciones de funciones 
+const x = () => alert("hola");
+
+
