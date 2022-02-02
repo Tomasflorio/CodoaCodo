@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+}
+.collapse{
+    display: inline-block;
+    justify-content: center;
+}
+.btn-outline-success{
+    color: black;
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 0cm;
+}
+.row{
+    padding-top: 75px;
+}
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100px;
+}
+p{
+    color: rgb(165, 165, 165);
+}
+.card{
+    background-color: black;
+
+}
+#carta{
+    
+    background-color:gray ;
+    color: white;
+}
+#carta p{
+    color: white;
+}
+.card-title{
+    color: white;
+}
