@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Nav*/
+a .fa-brands{ 
+  margin: 0 15px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: rgb(224, 20, 20);
+  border-radius: 50%;
+  color: white;
+  box-shadow: 0 0 6px rgba(0, 0, 0,0.3);
+  transition: all 0.3s ease;
+
+}
+a .fa-whatsapp:hover{
+  background: rgb(21, 255, 0);
+}
+a .fa-instagram:hover{
+  background: rgb(201, 3, 250);
+}
+a .fa-linkedin:hover{
+  background: rgb(0, 119, 255);
+}
+/*Foto primera*/
+
